@@ -1,9 +1,5 @@
-# engine
-The chess.ts engine
+# Chess Ts Engine
 
-## Tech Stack
+## Public Functions
 
-| Element | Tech |
-| - | - |
-| Engine | TypeScript |
-| Site | Vue? |
+SOON
