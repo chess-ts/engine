@@ -1,0 +1,27 @@
+{
+  "name": "chess-engine",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "main.ts",
+  "scripts": {
+    "test": "deno test --coverage=coverage && deno coverage coverage --html && start ./coverage/html/index.html",
+    "run": "ts-node main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.s2.rpn.ch/tpi2024/echecs"
+  },
+  "keywords": [
+    "chess",
+    "engine",
+    "typescript"
+  ],
+  "author": "AquIce",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "jsdoc": "^4.0.2",
+    "typescript": "^5.3.3"
+  }
+}
